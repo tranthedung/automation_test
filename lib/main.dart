@@ -78,12 +78,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   ],
                 ),
               ),
-              TextFormField(
-                key: const Key("text_form_field"),
-                decoration: InputDecoration(
-                  labelText: 'Enter your password',
-                ),
-              ),
               Text(
                 key: const Key("text_counter_label"),
                 'You have pushed the button this many times:',
